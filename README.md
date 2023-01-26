@@ -1,6 +1,8 @@
 # Info
 This is a tool for creating multiple generation tasks at once on pixai.art.
+
 You have the choice between three different versions of the tool, so pick the one you like the most.
+
 Please check the branch of any version to read more in-depth information about it.
 
 # V1 features
