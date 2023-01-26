@@ -3,7 +3,10 @@ This is a tool for creating multiple generation tasks at once on pixai.art.
 
 You have the choice between three different versions of the tool, so pick the one you like the most.
 
-Please check the branch of any version to read more in-depth information about it.
+Please check the branch of any version to read more in-depth information about it:
+[V1](https://github.com/KindAiden/pixai-auto-info-tool/tree/V1), 
+[V2](https://github.com/KindAiden/pixai-auto-info-tool/tree/V2), 
+[V3](https://github.com/KindAiden/pixai-auto-info-tool/tree/V3)
 
 # V1 features
 - Choose how many images to generate
