@@ -1,1 +1,0 @@
-# pixai-auto-info-tool
