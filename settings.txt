@@ -1,0 +1,8 @@
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzQ3MzQxMDQsImV4cCI6MTY3NTMzODkwNCwic3ViIjoiMTU0Mzc3MzE5MTM5OTMyMDcxNCJ9.RMQQ77BZtkffiiSiubuRfq1nJIXWXtszQ0gho-gsoh8
+# of images: 8
+# of prompts: 1
+high priority: 0
+auto publish: 0
+sampling steps: 50
+Model: 0
+Size: 0
