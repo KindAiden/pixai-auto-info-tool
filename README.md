@@ -44,7 +44,7 @@ Then the model is choosen, the sampling steps is set to 50 and the size of the i
 
 If you turned on auto-submit, the submit button is clicked and the tab is closed using CTRL-W for all the prompts it made.
 
-# performance (V1/V2)
+# Performance (V1/V2)
 Time = 8 + (x / 30) + (y / 30)
 Where Time is the time in seconds the tool needs for one filled-out submit page, x is the ammount of characters in the prompt and y is the
 ammount of characters in the negative prompt.
@@ -54,9 +54,9 @@ Time = (1.5 * x) - 1.5
 Where Time is the time in seconds the tool needs to submit and close all tabs and x is the ammount of tabs opened by the tool.
 The - 1.5 at the end is there because the final tab is not closed so you end up in your accounts generation tasks page.
 
-# how it works (V3)
+# How it works (V3)
 After you've entered your settings and prompt the tool will send that data to the pixai server.
 
-# performance (V3)
+# Performance (V3)
 Time = 0.1 * x
 Where Time is the time in seconds the tool needs to send all requests and x is the amount of prompts.
