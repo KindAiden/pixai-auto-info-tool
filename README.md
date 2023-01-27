@@ -3,7 +3,9 @@ This is a tool for creating multiple generation tasks at once on pixai.art.
 
 You have the choice between three different versions of the tool, so pick the one you like the most.
 
-Please check the branch of any version to read more in-depth information about it:
+Vesion 1 and version 2 are easy to understand and use, no initial setup is required.
+Version 3 needs some setting up before you can use it, please check the branch for V3 for more info.
+
 [V1](https://github.com/KindAiden/pixai-auto-info-tool/tree/V1), 
 [V2](https://github.com/KindAiden/pixai-auto-info-tool/tree/V2), 
 [V3](https://github.com/KindAiden/pixai-auto-info-tool/tree/V3)
@@ -22,8 +24,10 @@ Please check the branch of any version to read more in-depth information about i
 - Everything from V1
 - A nice GUI
 
-# ~V3 features~
-- ***V3 is still in development***
+# V3 features
+- Everything from V1
+- A nice GUI
+- Load default settings from a text file
 
 # How it works (V1/V2)
 ***before starting, open the web browser of your choice***
@@ -50,5 +54,5 @@ Time = (1.5 * x) - 1.5
 Where Time is the time in seconds the tool needs to submit and close all tabs and x is the ammount of tabs opened by the tool.
 The - 1.5 at the end is there because the final tab is not closed so you end up in your accounts generation tasks page.
 
-# ~how it works (V3)~
-*V3 is a complete rework of the first two versions, sending data directly to the pixai servers.*
+# how it works (V3)
+After you've entered your settings and prompt the tool will send that data to the pixai server.
