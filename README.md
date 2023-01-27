@@ -15,5 +15,6 @@ Click on any of the 'graphql' requests and scroll down to the 'Request Headers'.
 11. Start the tool, it should read everything from the settings file automaticaly.
 
 You are now done with the setup!
+
 ***NEVER SHARE YOUR AUTH KEY!!***
 Someone could use it to make requests on your account.
