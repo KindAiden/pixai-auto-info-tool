@@ -28,6 +28,7 @@ Version 3 needs some setting up before you can use it, please check the branch f
 - Everything from V1
 - A nice GUI
 - Load default settings from a text file
+- Compound words; Being able to save (part of) a prompt as a single word.
 
 # How it works (V1/V2)
 ***before starting, open the web browser of your choice***
