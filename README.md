@@ -18,3 +18,15 @@ You are now done with the setup!
 
 ***NEVER SHARE YOUR AUTH KEY!!***
 Someone could use it to make requests on your account.
+
+# Compound words
+Compound words were added in V3.1, but what are they and how do you use them?
+
+### What are compound words?
+Compound words are words in your prompt that get replaced by the tool automaticaly, For example, when typing 'Mia, relaxing, picnic' in the prompt the tool will send '(schoolgirl, cute, blonde hair, blue eyes), relaxing, picnic'. This way you can just type the names of your favorite characters or places and the tool will describe them to the pixai servers.
+
+### How to use compound words?
+Using compound words is really simple, all you need to do is create a new .txt file in the same folder as the tool and name it 'compound words'.
+
+Now open the file, type a word like 'mia' and add the description for that word; 'schoolgirl, cute, blonde hair, blue eyes'.
+The text should be formatted as **[compound word]: [description]**.
