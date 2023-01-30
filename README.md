@@ -10,6 +10,8 @@ Version 3 needs some setting up before you can use it, please check the branch f
 [V2](https://github.com/KindAiden/pixai-auto-info-tool/tree/V2), 
 [V3](https://github.com/KindAiden/pixai-auto-info-tool/tree/V3)
 
+in each branch you will find the python file and the executable file, when a new update releases only the old python file will be saved in a folder named 'old versions'
+
 # V1 features
 - Choose how many images to generate
 - Generate multiple images with different prompts
