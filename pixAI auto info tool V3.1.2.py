@@ -61,7 +61,7 @@ def start():
     while i < len(prompts):
         for word in compound_words:
             if word in prompts[i]:                
-                prompts[i] = prompts[i].replace(word, '(' + compound_meanings[compound_words.index(word)] + ')')
+                prompts[i] = prompts[i].replace(word, compound_meanings[compound_words.index(word)])
         i += 1
     
     i = 0
@@ -157,7 +157,7 @@ high_priority_var = IntVar()
 auto_publish_var = IntVar()
 selected_model = StringVar()
 selected_size = StringVar()
-models = ['anything-v3.0', 'counterfeit-v2.5', 'anything-v4.5', 'abyss-orange-mix-v2', 'pastel-mix']
+models = ['anything-v3.0', 'counterfeit-v2.5', 'anything-v4.5', 'abyss-orange-mix-v2', 'pastel-mix', 'nec-2', 'pai-real-v1.0', 'pai-counterfeit-v1.0', 'pai-asian-real-mix', 'cetus-mix-v2', ]
 sizes = ['Normal', 'Portrait', 'Landscape']
 
 #create the text for displaying errors
@@ -204,7 +204,7 @@ prompt_input.insert('1.0', 'Enter your promt here.\nUse the pipe character "|" t
 
 #create the input field for the negative prompt
 negative_prompt_input = Text(canvas, wrap=WORD, font=('calibre',10,'normal'))
-negative_prompt_input.insert('1.0', 'Enter your negative promt here.\nUse the pipe character "|" to seperate multiple prompts')
+negative_prompt_input.insert('1.0', 'Enter your negative promt here.\nUse the pipe character "|" to seperate multiple prompts. \nnsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry')
 
 #create the button for high priority
 high_priority = Checkbutton(canvas, text='Use high priority', font=('calibre',9,'normal'), variable=high_priority_var)
